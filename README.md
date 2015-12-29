@@ -1,6 +1,6 @@
 # javascript
 
-# com
+# com/
 
-    /util/Btnchoice.js (버튼on,off 컨트롤러)
+    util/Btnchoice.js (버튼on,off 컨트롤러)
 
