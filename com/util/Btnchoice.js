@@ -1,7 +1,7 @@
 /**
  *
- * @param 버튼영역
- * @param on off 이미지
+ * @param btn Area
+ * @param on off Area
  * @constructor
  */
 
