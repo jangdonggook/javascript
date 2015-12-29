@@ -24,10 +24,10 @@
 
 ## <a name='Btnchoice'>Btnchoice</a>
 
-- 객체 생성
+- 객체 생성 &nbsp;
 var btnchoice = new Btnchoice('.listArea ul li>a', '.listArea .obj')
 
-- n 번째 활성화
+- n 번째 활성화 &nbsp;
 btnchoice.setMenu(Number(1));
 
 
