@@ -24,10 +24,10 @@
 
 ## <a name='Btnchoice'>Btnchoice</a>
 
-
+//1.선언
 var btnchoice = new Btnchoice('.listArea ul li>a', '.listArea .obj')
-
-btnchoice.setMenu(Number(1)); //해당요소 활성화
+//2.해당요소 활성화
+btnchoice.setMenu(Number(1));
 
 
 **[⬆ back to top](#table-of-contents)**
