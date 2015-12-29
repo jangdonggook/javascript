@@ -3,9 +3,12 @@
 # com
 
 [util/Btnchoice.js](#Btnchoice)
-[util/Btnchoice.js](#Btnchoice2)
-[util/Btnchoice.js](#Btnchoice3)
-[util/Btnchoice.js](#Btnchoice4)
+
+[util/Btnchoice2.js](#Btnchoice2)
+
+[util/Btnchoice3.js](#Btnchoice3)
+
+[util/Btnchoice4.js](#Btnchoice4)
 
 ## Btnchoice
 
