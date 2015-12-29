@@ -20,93 +20,16 @@
 
 [util/Btnchoice.js](#Btnchoice)
 
-[util/Btnchoice2.js](#Btnchoice2)
 
-[util/Btnchoice3.js](#Btnchoice3)
-
-[util/Btnchoice4.js](#Btnchoice4)
 
 ## <a name='Btnchoice'>Btnchoice</a>
 
 
 var btnchoice = new Btnchoice('.listArea ul li>a', '.listArea .obj')
 
-btnchoice.setMenu(Number(1));
+btnchoice.setMenu(Number(1)); //해당요소 활성화
 
 
 **[⬆ back to top](#table-of-contents)**
-
-
-## <a name='Btnchoice2'>Btnchoice2</a>
-
-
-var btnchoice = new Btnchoice('.listArea ul li>a', '.listArea .obj')
-
-
-
-
-
-
-ds
-
-sd
-f
-sd
-f
-
-sd
-f
-d
-sf
-
-sdf
-
-s
-fs
-f
-btnchoice.setMenu(Number(1));
-
-
-**[⬆ back to top](#table-of-contents)**
-
-## <a name='Btnchoice3'>Btnchoice3</a>
-
-
-var btnchoice = new Btnchoice('.listArea ul li>a', '.listArea .obj')
-
-btnchoice.setMenu(Numbdd;salda
-dasd
-as
-d
-as
-d
-
-as
-d
-as
-d
-as
-d
-
-sa
-d
-a
-sder(1));
-
-
-**[⬆ back to top](#table-of-contents)**
-
-
-## <a name='Btnchoice4'>Btnchoice4</a>
-
-
-var btnchoice = new Btnchoice('.listArea ul li>a', '.listArea .obj')
-
-btnchoice.setMenu(Number(1));
-
-
-**[⬆ back to top](#table-of-contents)**
-
-
 
 
