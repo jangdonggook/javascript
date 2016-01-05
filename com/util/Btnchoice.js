@@ -7,14 +7,16 @@
 
 function Btnchoice(selector, selectorPoint) {
 
+    //public var
+    this.isNum = -1;
+
     //private var
     var temp = -1;
     var imgType;
     var $selector = $(selector),
         $selectorPoint = $(selectorPoint);
 
-    //public var
-    this.isNum = -1;
+
 
     //setter
     this.setMenu = function(n){
@@ -54,8 +56,6 @@ function Btnchoice(selector, selectorPoint) {
             return String("jpg")
         }
     }
-
-
 }
 
 
