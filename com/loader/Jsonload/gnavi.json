@@ -1,0 +1,100 @@
+navi(
+{
+
+	"menu": [
+	{
+		"name": "FASHION",
+		"url": "http://global.gmarket.co.kr/Home/GlobalGate?nation=EN&amp;nexturl=http://gpromotion.gmarket.co.kr/Plan/PlanView?sid=140531",
+		"depths2": [
+		{
+			"name": "The Best Awards",
+			"url": "http://global.gmarket.co.kr/Home/GlobalGate?nation=EN&amp;nexturl=http://gpromotion.gmarket.co.kr/Plan/PlanView?sid=140689"
+		},
+		{
+			"name": "Fashion Awards",
+			"url": "http://global.gmarket.co.kr/Home/GlobalGate?nation=EN&amp;nexturl=http://gpromotion.gmarket.co.kr/Plan/PlanView?sid=141030"
+		},
+		{
+			"name": "Hello 2016",
+			"url": "http://global.gmarket.co.kr/Home/GlobalGate?nation=EN&amp;nexturl=http://gpromotion.gmarket.co.kr/Plan/PlanView?sid=140893"
+		}]
+	},
+	{
+		"name": "BEAUTY",
+		"url": "http://global.gmarket.co.kr/Home/GlobalGate?nation=EN&amp;nexturl=http://gpromotion.gmarket.co.kr/Plan/PlanView?sid=140618",
+		"depths2": [
+		{
+			"name": "Special Bundle Offer",
+			"url": "http://global.gmarket.co.kr/Home/GlobalGate?nation=EN&amp;nexturl=http://gpromotion.gmarket.co.kr/Plan/PlanView?sid=141089"
+		},
+		{
+			"name": "The Best Awards",
+			"url": "http://global.gmarket.co.kr/Home/GlobalGate?nation=EN&amp;nexturl=http://gpromotion.gmarket.co.kr/Plan/PlanView?sid=140689"
+		},
+		{
+			"name": "Hello 2016",
+			"url": "http://global.gmarket.co.kr/Home/GlobalGate?nation=EN&amp;nexturl=http://gpromotion.gmarket.co.kr/Plan/PlanView?sid=140893"
+		}]
+	},
+	{
+		"name": "KPOP",
+		"url": "http://global.gmarket.co.kr/Home/GlobalGate?nation=EN&amp;nexturl=http://gpromotion.gmarket.co.kr/Plan/PlanView?sid=133498",
+		"depths2": [
+		{
+			"name": "EXO Winter Album",
+			"url": "http://global.gmarket.co.kr/Home/GlobalGate?nation=EN&amp;nexturl=http://gpromotion.gmarket.co.kr/Plan/PlanView?sid=133498"
+		},
+		{
+			"name": "The Best Awards",
+			"url": "http://global.gmarket.co.kr/Home/GlobalGate?nation=EN&amp;nexturl=http://gpromotion.gmarket.co.kr/Plan/PlanView?sid=140689"
+		},
+		{
+			"name": "Hello 2016",
+			"url": "http://global.gmarket.co.kr/Home/GlobalGate?nation=EN&amp;nexturl=http://gpromotion.gmarket.co.kr/Plan/PlanView?sid=140893"
+		}]
+	},
+	{
+		"name": "KIDS",
+		"url": "http://global.gmarket.co.kr/Home/GlobalGate?nation=EN&amp;nexturl=http://gpromotion.gmarket.co.kr/Plan/PlanView?sid=138099",
+		"depths2": [
+		{
+			"name": "For Mom Dear My Kids",
+			"url": "http://global.gmarket.co.kr/Home/GlobalGate?nation=EN&amp;nexturl=http://gpromotion.gmarket.co.kr/Plan/PlanView?sid=141015"
+		},
+		{
+			"name": "The Best Awards",
+			"url": "http://global.gmarket.co.kr/Home/GlobalGate?nation=EN&amp;nexturl=http://gpromotion.gmarket.co.kr/Plan/PlanView?sid=140689"
+		},
+		{
+			"name": "Hello 2016",
+			"url": "http://global.gmarket.co.kr/Home/GlobalGate?nation=EN&amp;nexturl=http://gpromotion.gmarket.co.kr/Plan/PlanView?sid=140893"
+		}]
+	},
+	{
+		"name": "LIFE",
+		"url": "http://global.gmarket.co.kr/Home/GlobalGate?nation=EN&amp;nexturl=http://gpromotion.gmarket.co.kr/Plan/PlanView?sid=140364",
+		"depths2": [
+		{
+			"name": "Block Fine Dust",
+			"url": "http://global.gmarket.co.kr/Home/GlobalGate?nation=EN&amp;nexturl=http://gpromotion.gmarket.co.kr/Plan/PlanView?sid=141222"
+		},
+		{
+			"name": "2016 Season Greeting",
+			"url": "http://global.gmarket.co.kr/Home/GlobalGate?nation=EN&amp;nexturl=http://gpromotion.gmarket.co.kr/Plan/PlanView?sid=140734"
+		},
+		{
+			"name": "CJ Food Fair",
+			"url": "http://global.gmarket.co.kr/Home/GlobalGate?nation=EN&amp;nexturl=http://gpromotion.gmarket.co.kr/Plan/PlanView?sid=140915"
+		},
+		{
+			"name": "The Best Awards",
+			"url": "http://global.gmarket.co.kr/Home/GlobalGate?nation=EN&amp;nexturl=http://gpromotion.gmarket.co.kr/Plan/PlanView?sid=140915"
+		},
+		{
+			"name": "Hello 2016",
+			"url": "http://global.gmarket.co.kr/Home/GlobalGate?nation=EN&amp;nexturl=http://gpromotion.gmarket.co.kr/Plan/PlanView?sid=140893"
+		}]
+	}]
+
+
+})
