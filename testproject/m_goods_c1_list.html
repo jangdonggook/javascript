@@ -1,0 +1,46 @@
+
+
+<!DOCTYPE html>
+<html>
+<head lang="ko">
+    <meta charset="euc-kr">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1,  user-scalable=no" />
+    <script src="https://fb.me/react-0.14.3.js"></script>
+    <script src="https://fb.me/react-dom-0.14.3.js"></script>
+    <script src="https://fb.me/JSXTransformer-0.13.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../src/css/m_goods.css" />
+    <script type="text/javascript" src="../com/loader/Jsonload.js"></script>
+    <script type="text/jsx" src="../src/js/m_goods.js"></script>
+    <!--<script type="text/javascript" src="http://eventimg.auction.co.kr/md/auction/07C0B575AE/qa_resizeFrame.js"></script>-->
+
+    <title></title>
+</head>
+
+<body>
+
+  <div id="goods_c1_list">
+    <ul class="goods_area"></ul>
+  </div>
+
+  <script type="text/javascript">
+      window.onload = function(){
+          var jsonData = new Jsonload();
+          jsonData.setUrl("../src/json/m_goods.json" , "navi");
+          jsonData.dataLoadComplete = function(data){
+              listMake(data)
+          };
+      }
+  </script>
+
+  <script type="text/jsx">
+      function listMake(gdata){
+          var element = React.createElement(ThumbnailList, gdata)
+          React.render(element , document.querySelector('.goods_area'))
+      }
+  </script>
+
+</body>
+</html>

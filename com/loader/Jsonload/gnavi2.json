@@ -1,0 +1,207 @@
+listArea(
+{
+
+"list": [
+{
+"title": "우리가족 붉은 악마",
+"sub_title": "우리가족 붉은 악마",
+"url": "http://wwww.naver.com",
+"orign_price": "100,000",
+"sale_pice": "50,000",
+"tag": [
+{
+"className":"tag_week",
+"name": "패션위크"
+},
+{
+"className":"tag_dc",
+"name": "63%"
+},
+{
+"className":"tag_special",
+"name": "옥션특가"
+},
+{
+"className":"tag_dc_allkill",
+"name": "55%"
+},
+{
+"className":"tag_allkill",
+"name": "옥션특가"
+},
+{
+"className":"tag_smart",
+"name": "스마트배"
+},
+{
+"className":"tag_black",
+"name": "무료배송"
+},
+{
+"className":"tag_black",
+"name": "즉시할인"
+}]
+},
+{
+"title": "우리가족 붉은 악마",
+"sub_title": "우리가족 붉은 악마",
+"url": "http://wwww.naver.com",
+"orign_price": "100,000",
+"sale_pice": "50,000",
+"tag": [
+{
+"className":"tag_week",
+"name": "패션위크"
+},
+{
+"className":"tag_dc",
+"name": "63%"
+},
+{
+"className":"tag_special",
+"name": "옥션특가"
+},
+{
+"className":"tag_dc_allkill",
+"name": "55%"
+},
+{
+"className":"tag_allkill",
+"name": "옥션특가"
+},
+{
+"className":"tag_smart",
+"name": "스마트배"
+},
+{
+"className":"tag_black",
+"name": "무료배송"
+},
+{
+"className":"tag_black",
+"name": "즉시할인"
+}]
+},
+{
+"title": "우리가족 붉은 악마",
+"sub_title": "우리가족 붉은 악마",
+"url": "http://wwww.naver.com",
+"orign_price": "100,000",
+"sale_pice": "50,000",
+"tag": [
+{
+"className":"tag_week",
+"name": "패션위크"
+},
+{
+"className":"tag_dc",
+"name": "63%"
+},
+{
+"className":"tag_special",
+"name": "옥션특가"
+},
+{
+"className":"tag_dc_allkill",
+"name": "55%"
+},
+{
+"className":"tag_allkill",
+"name": "옥션특가"
+},
+{
+"className":"tag_smart",
+"name": "스마트배"
+},
+{
+"className":"tag_black",
+"name": "무료배송"
+},
+{
+"className":"tag_black",
+"name": "즉시할인"
+}]
+},
+{
+"title": "우리가족 붉은 악마",
+"sub_title": "우리가족 붉은 악마",
+"url": "http://wwww.naver.com",
+"orign_price": "100,000",
+"sale_pice": "50,000",
+"tag": [
+{
+"className":"tag_week",
+"name": "패션위크"
+},
+{
+"className":"tag_dc",
+"name": "63%"
+},
+{
+"className":"tag_special",
+"name": "옥션특가"
+},
+{
+"className":"tag_dc_allkill",
+"name": "55%"
+},
+{
+"className":"tag_allkill",
+"name": "옥션특가"
+},
+{
+"className":"tag_smart",
+"name": "스마트배"
+},
+{
+"className":"tag_black",
+"name": "무료배송"
+},
+{
+"className":"tag_black",
+"name": "즉시할인"
+}]
+},
+{
+"title": "우리가족 붉은 악마",
+"sub_title": "우리가족 붉은 악마",
+"url": "http://wwww.naver.com",
+"orign_price": "100,000",
+"sale_pice": "50,000",
+"tag": [
+{
+"className":"tag_week",
+"name": "패션위크"
+},
+{
+"className":"tag_dc",
+"name": "63%"
+},
+{
+"className":"tag_special",
+"name": "옥션특가"
+},
+{
+"className":"tag_dc_allkill",
+"name": "55%"
+},
+{
+"className":"tag_allkill",
+"name": "옥션특가"
+},
+{
+"className":"tag_smart",
+"name": "스마트배"
+},
+{
+"className":"tag_black",
+"name": "무료배송"
+},
+{
+"className":"tag_black",
+"name": "즉시할인"
+}]
+}]
+
+
+})

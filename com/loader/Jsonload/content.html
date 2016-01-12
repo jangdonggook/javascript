@@ -9,10 +9,18 @@
     <title>jsonload sample</title>
 
     <script>
-        window.onload = function(){
-            var jsonData = new Jsonload();
-            jsonData.setUrl("gnavi.json");
-            jsonData.getData();
+
+        var jsonData = new Jsonload();
+        jsonData.setUrl("gnavi.json" , "navi");
+        jsonData.dataLoadComplete = function(data){
+            console.debug("1 -- > " , data)
+        };
+
+
+        var bb = new Jsonload();
+        bb.setUrl("gnavi2.json" ,"listArea");
+        bb.dataLoadComplete = function(data){
+            console.debug("2 -- > " , data)
         };
 
 

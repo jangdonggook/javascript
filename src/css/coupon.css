@@ -1,0 +1,27 @@
+@charset "euc-kr";
+@import url(http://fonts.googleapis.com/css?family=Roboto:700);
+
+*{margin:0;padding:0;}
+html{font-family:"¸¼Àº °íµñ", Roboto, Droid Sans, Helvetica, AppleSDGothicNeo, 'Apple SD »êµ¹°íµñ Neo', Apple-Gothic, '¾ÖÇÃ°íµñ', 'Tahoma', 'dotum', 'µ¸¿ò', 'gulim', '±¼¸²', sans-serif;}
+a{border:0;text-decoration:none;}
+body{background:transparent;}
+
+li{list-style:none;}
+img{border:0;vertical-align:top;}
+
+
+/* ÄíÆù ¹Þ±â */
+#coupon_area{text-align:center;}
+#coupon_area .value{line-height:22px;font-weight:bold;width:100%;height:40px;font-size:18px;color:#000000;vertical-align:top;}
+#coupon_area .value strong{font-size:22px;line-height:22px;color:#000000;position:relative;top:2px;}
+
+
+/* ÄíÆù ¼±ÅÃÇÏ¿© ¹Þ±â */
+#coupon_select{width:525px;overflow:hidden;margin:0 auto;position:relative;font-weight:bold}
+#coupon_select img{vertical-align:top}
+#coupon_select .coupon_cnt{width:50%;text-align:center;float:left;text-align:center;overflow:hidden}
+#coupon_select .coupon_img{position:relative}
+#coupon_select .coupon_img .end{position:absolute;top:0;left:0;width:100%}
+#coupon_select .coupon_quantity{margin-top:10px;line-height:100%;font-size:20px;color:#666666;height:30px}
+#coupon_select .coupon_quantity strong{font-family:'Roboto', sans-serif;font-size:20px;color:#ff525c}	
+#coupon_select #btn_area{text-align:center;width:100%;padding-top:20px;clear:both;}

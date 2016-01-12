@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/com/loader/Jsonload/gnavi2.json" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/src/json/m_goods.json" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/type_c_html/json/m_goods1.json" charset="EUC-KR" />
+    <file url="file://$PROJECT_DIR$/type_c_html/json/mobile_type5.json" charset="EUC-KR" />
+  </component>
 </project>

@@ -1,0 +1,25 @@
+@charset "euc-kr";
+@import url(http://fonts.googleapis.com/css?family=Roboto:700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+*{margin:0;padding:0;}
+html{font-family:Roboto, Droid Sans, Helvetica, AppleSDGothicNeo, 'Apple SD »êµ¹°íµñ Neo', Apple-Gothic, '¾ÖÇÃ°íµñ', 'Tahoma', 'dotum', 'µ¸¿ò', 'gulim', '±¼¸²', sans-serif;}
+a{text-decoration:none;color:#000;}
+
+
+li{list-style:none;}
+img{border:0;vertical-align:top;}
+
+
+
+/* °Ô½Ã¹° ¸ñ·Ï */
+#board_list{background:#fff;padding:4%;overflow:hidden;}
+#board_list table.table_list{border-top:3px #000 solid;border-bottom:2px #000 solid;width:100%;border-collapse:collapse;}
+#board_list table.table_list thead th{padding:1% 0;text-align:center;border-bottom:1px #000 solid; font-size:13px;}
+#board_list table.table_list tbody td{padding:3% 0;text-align:center;border-bottom:1px #000 dashed;word-break: break-all; font-size:13px;}
+#board_list table.table_list tbody td.subject{padding:3% 5%;font-weight:bold;text-align:left; font-size:13px;}
+#board_list #paging{margin-top:5%;text-align:center;}
+#board_list #paging span{font-weight:bold;margin-right:4px; font-size:16px;}
+#board_list #paging span .this{color:#ab1e2c;}
+#board_list #paging span a{margin:0 4px 0 8px; font-size:16px;}
+#board_list #paging img{width:18px;}

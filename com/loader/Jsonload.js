@@ -5,43 +5,31 @@
  */
 
 function Jsonload(){
-    var aaa;
-    this.data="9";
-    this.test = "test var";
+    this._data = [];
+    //this.dataLoadComplete = function(){}
 
 }
 
-//set , get
-Jsonload.prototype = {
-
-    setUrl : function(_url){
-        $.ajax({
-            url:_url,
-            crossDomain: true,
-            dataType: "jsonp",
-            jsonpCallback: "navi",
-            success: function(xml) {
-
-               console.debug("setUrl : tihs.data === > " , this.data);
-               // this.data = xml.length;
-
-            },
-            error: function() {
-
-            }
-        });
-    },
-    getData : function(){
-        //return this.data;
-        console.debug("getData : this.data ===> " ,this.data)
-        //console.debug("test : this.test ===> " ,this.test) // test var
-
-        //return this.data;
-    }
-
-
-
+//set
+Jsonload.prototype.setUrl = function(_url , _callbackname){
+    var self = this;
+    $.ajax({
+        url:_url,
+        crossDomain: true,
+        dataType: "jsonp",
+        jsonpCallback: _callbackname ,
+        success: function(xml) {
+            self._data = xml
+        },
+        error: function() {},
+        complete: function(){
+            self.dataLoadComplete(self._data)
+        }
+    });
 };
+
+//override
+Jsonload.prototype.dataLoadComplete = function(data){};
 
 
 
