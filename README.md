@@ -18,9 +18,9 @@
 
 # com
 
-[util/Btnchoice.js](#Btnchoice)
-&nbsp;
-[loader/Jsonload.js](#Jsonload)
+### [util/Btnchoice.js](#Btnchoice)
+
+### [loader/Jsonload.js](#Jsonload)
 
 
 ## <a name='Btnchoice'>Btnchoice</a>
