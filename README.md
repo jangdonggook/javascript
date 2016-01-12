@@ -25,11 +25,15 @@
 
 ## <a name='Btnchoice'>Btnchoice</a>
 
-- 객체 생성 &nbsp;
-var btnchoice = new Btnchoice('.listArea ul li>a', '.listArea .obj')
 
-- n 번째 활성화 &nbsp;
+- 객체 생성
+```javascript
+var btnchoice = new Btnchoice('.listArea ul li>a', '.listArea .obj')
+```
+- n 번째 활성화
+```javascript
 btnchoice.setMenu(Number(1));
+```
 
 
 **[⬆ back to top](#table-of-contents)**
