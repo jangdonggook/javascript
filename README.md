@@ -43,7 +43,9 @@ var jsonData = new Jsonload();
 - 데이터 url , callbackName 셋팅 &nbsp;
 jsonData.setUrl("gnavi.json" , "navi");
 
-- 로드완료  &nbsp;
+- 로드완료
+
+```javascript
 jsonData.dataLoadComplete = function(data){
     console.debug("result -- > " , data)
 };
