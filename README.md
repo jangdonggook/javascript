@@ -19,7 +19,7 @@
 # com
 
 [util/Btnchoice.js](#Btnchoice)
-
+[loader/Jsonload.js](#Jsonload)
 
 
 ## <a name='Btnchoice'>Btnchoice</a>
@@ -32,5 +32,25 @@ btnchoice.setMenu(Number(1));
 
 
 **[⬆ back to top](#table-of-contents)**
+
+
+## <a name='Jsonload'>Jsonload</a>
+
+- 객체 생성 &nbsp;
+var jsonData = new Jsonload();
+
+- 데이터 url , callbackName 셋팅 &nbsp;
+jsonData.setUrl("gnavi.json" , "navi");
+
+- 로드완료  &nbsp;
+jsonData.dataLoadComplete = function(data){
+    console.debug("result -- > " , data)
+};
+
+**[⬆ back to top](#table-of-contents)**
+
+
+
+
 
 
