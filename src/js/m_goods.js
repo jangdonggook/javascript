@@ -5,13 +5,29 @@
 //<Tag tagInfo={this.props.tag}/>
 
 
-//mobile goods 1단
+//var Tag = React.createClass({
+//        //console.debug("tag -- > " , this.props)
+//        //render : function(){
+//        //    return <span className={this.props.tagClass}>{this.props.tagName}</span>
+//        //
+//        //}
+//    }
+//)
+
+
+var Tag = React.createClass({
+
+        render : function(){
+
+            console.debug(this.props.title);
+            return <span className="tag_dc">{this.props.tag}</span>
+        }
+    }
+)
+
 var Thumbnail = React.createClass({
 
     render : function(){
-
-        console.debug("tag -- > " , this.props.tag)
-
         return <li>
                 <div className="finish">
                     <img src="../src/images/m_finish_col1.png" alt="판매종료" />
@@ -27,9 +43,12 @@ var Thumbnail = React.createClass({
                     <span className="tag_black">무료배송</span>
                     <span className="tag_black">즉시할인</span>
 
-
-
+                    <Tag title={this.props.title}/>
                 </span>
+
+
+
+
                 <div className="goods_img">
                     <a href={this.props.link}><img src={this.props.image_url} /></a>
                 </div>
@@ -52,14 +71,7 @@ var Thumbnail = React.createClass({
 })
 
 
-//var Tag = React.createClass({
-//        render : function(){
-//            return <span className={this.props.className}>
-//                    {this.props.name}
-//                </span>
-//        }
-//    }
-//)
+
 
 
 //mobile list loop
