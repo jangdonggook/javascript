@@ -18,7 +18,7 @@ var Tag = React.createClass({
 
         render : function(){
 
-            console.debug(this.props.title);
+            //console.debug("test --> " , this.props.title);
             return <span className="tag_dc">{this.props.tag}</span>
         }
     }
@@ -77,6 +77,7 @@ var Thumbnail = React.createClass({
 var ThumbnailList = React.createClass({
     render : function(){
         var list = this.props.thumbnailData.map(function(thumbnailProps){
+
             return <Thumbnail {...thumbnailProps} />
         })
         return <div>
